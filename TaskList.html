@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ваши задачи</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <h1>Текущие задачи</h1>
+<div class="btn-group btn-group-justified">
+    <div class="btn-group">
+        <button type="button" class="btn btn-primary">Главная</button>
+    </div>
+    <div class="btn-group">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Задачи<span class="caret"></span></button>
+        <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Текущие задачи</a></li>
+            <li><a href="#">Завершенные задачи</a></li>
+            <li><a href="#">Просроченные задачи</a></li>
+        </ul>
+    </div>
+    <div class="btn-group">
+        <button type="button" class="btn btn-primary">Настройки</button>
+    </div>
+</div>
+</div>
+
+<div class="container">
+
+    <div class="alert alert-info">
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+        <strong>Справка!</strong>Для перехода к подзадачам необходимо нажать на строку с интересующей Вас позицией.</div>
+    <table class="table table-hover">
+        <thead>
+        <tr>
+            <th>Ваши задачи</th>
+            <th>Дата начала</th>
+            <th>Дата завершения</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>
+                <dl>
+                    <dt>Глобальная задача</dt>
+                    <dd class="text-muted">Подзадача 1</dd>
+                    <dd class="text-muted">Подзадача 2</dd>
+                    <dd class="text-muted">Подзадача 3</dd>
+                </dl>
+            </td>
+            <td>30.03.2016</td>
+            <td>01.04.2016</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<div class="container">
+<button type="button btn-md" class="btn btn-primary">Добавить задачу</button>
+    </div>
+
+
+</body>
+</html>
